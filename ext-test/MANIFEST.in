@@ -1,0 +1,5 @@
+recursive-include src/testwarden/specterext/warden/templates *
+recursive-include src/testwarden/specterext/warden/static *
+recursive-include src/testwarden/specterext/warden/*/LC_MESSAGES *.mo
+recursive-include src/testwarden/specterext/warden/translations/*/LC_MESSAGES *.po
+include requirements.txt

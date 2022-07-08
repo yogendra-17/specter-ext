@@ -1,0 +1,8 @@
+{% extends "warden/base.jinja" %}
+{% block main %}
+    <img src="{{ url_for(service.id +'_endpoint' + '.static', filename=service.logo) }}" width="300"/>    
+    {% from 'warden/components/warden_menu.jinja' import warden_menu with context %}
+    {{ warden_menu(tab) }}
+    {% block content %}
+    {% endblock %}
+{% endblock %}
